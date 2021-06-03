@@ -3,8 +3,14 @@ A node (npm) template for static sites
 
 Features:
 - scss with autoprefixer & stylelint
-- onchange
-- browsersync
 - posthtml
+- eslint (extends Standard)
 - webpack
 - babel
+- onchange
+- browsersync
+
+Useage:
+
+- build: `npm run build`
+- serve: `npm run serve`
