@@ -1,3 +1,3 @@
 import { logSomething } from './module'
 
-logSomething('zombie9')
+logSomething('zombie9 rules ok')

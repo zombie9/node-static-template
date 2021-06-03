@@ -1,3 +1,4 @@
+/* eslint-disable node/no-path-concat */
 module.exports = {
   entry: './src/js/main.js',
   output: {
@@ -20,7 +21,8 @@ module.exports = {
           options: {
             presets: ['@babel/preset-env']
           }
+        }
       }
-    }]
+    ]
   }
 }

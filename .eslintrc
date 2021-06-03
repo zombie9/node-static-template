@@ -15,6 +15,7 @@
   "rules": {
     "semi": [1, "never"],
     "quotes": [1, "single"],
-    "indent": [1, 2]
+    "indent": [1, 2],
+    "no-path-concat": 0
   }
 }

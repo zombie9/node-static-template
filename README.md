@@ -13,4 +13,5 @@ Features:
 Useage:
 
 - build: `npm run build`
-- serve: `npm run serve`
+- serve: `npm run watch`
+- or `npm run start` to combine both

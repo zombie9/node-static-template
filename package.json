@@ -18,7 +18,8 @@
     "watch:html": "onchange \"src/views\" -- npm run build:html",
     "watch:images": "onchange \"src/images\" -- npm run build:images",
     "watch:js": "onchange \"src/js\" -- webpack --mode=development",
-    "watch": "run-p serve watch:*"
+    "watch": "run-p serve watch:*",
+    "start": "npm run build && npm run watch"
   },
   "author": "zombie9",
   "license": "ISC",
@@ -46,6 +47,8 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1",
     "eslint-plugin-promise": "^5.1.0"
   }
 }
