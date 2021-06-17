@@ -27,12 +27,12 @@
   "author": "zombie9",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-env": "^7.14.5",
     "autoprefixer": "^9.7.4",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "copyfiles": "^2.4.1",
-    "eslint": "^7.27.0",
+    "eslint": "^7.28.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-loader": "^3.0.3",
     "eslint-plugin-import": "^2.23.4",
@@ -47,8 +47,9 @@
     "posthtml": "^0.12.0",
     "posthtml-cli": "^0.5.2",
     "posthtml-modules": "^0.4.2",
+    "source-map-loader": "^3.0.0",
     "stylelint": "^13.0.0",
-    "webpack": "^4.41.5",
+    "webpack": "^5.39.1",
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
